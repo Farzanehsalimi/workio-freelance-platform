@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "vazir";
+  font-weight: 400;
+  font-style: Regular;
+  src: url("/fonts/Vazirmatn-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-weight: 700;
+  font-style: Bold;
+  src: url("/fonts/Vazirmatn-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-weight: 900;
+  font-style: Black;
+  src: url("/fonts/Vazirmatn-Black.ttf") format("woff");
+}
