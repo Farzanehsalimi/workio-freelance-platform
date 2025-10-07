@@ -1,0 +1,47 @@
+{
+  "name": "freelancery-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "icons:build": "svgr ./src/assets/icons/svg --out-dir ./src/components/icons --icon --replace-attr-values \"#000=currentColor,#363853=currentColor\" --ext jsx"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
+    "@tanstack/react-query": "^5.85.5",
+    "axios": "^1.11.0",
+    "classnames": "^2.5.1",
+    "query-string": "^9.2.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.62.0",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-multi-date-picker": "^4.5.2",
+    "react-otp-input": "^3.1.1",
+    "react-router-dom": "^7.8.1",
+    "react-tag-input-component": "^2.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@svgr/cli": "^8.1.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13",
+    "vite": "^7.1.2"
+  }
+}
