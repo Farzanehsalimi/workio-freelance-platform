@@ -44,7 +44,6 @@ export default {
         warning: withOpacity("--color-warning"),
         error: withOpacity("--color-error"),
         orange: withOpacity("--color-orange"),
-        orangeHover: withOpacity(""),
       },
       fontFamily: {
         sans: ["Vazir", ...fontFamily.sans],
