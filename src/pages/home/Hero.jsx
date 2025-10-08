@@ -49,6 +49,9 @@ function Hero() {
             <div class="avatar">
               <img src="/src/assets/images/avatar-2.jpeg" alt="avatar-2" />
             </div>
+            <div class="avatar">
+              <img src="/src/assets/images/avatar-1.jpg" alt="avatar-1" />
+            </div>
             <div class="hidden-avatars bg-orange text-secondary-900">
               {toPersianNumbers(4.8)}
             </div>
