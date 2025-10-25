@@ -29,7 +29,7 @@ function SidebarDrawer({ onClose }) {
       <div className="overflow-y-auto flex-auto pt-10">
         <SidebarDrawerNavs />
         <div className="flex justify-between px-5 pt-16">
-          <DarkModeToggle />
+          <DarkModeToggle darkModeContainerClassName="flex bg-secondary-400 rounded-3xl overflow-hidden p-0.5 lg:p-1 gap-1.5 lg:gap-2" />
           <button className="flex items-center gap-2 font-bold px-2 py-0.5 bg-secondary-900 text-secondary-50 rounded-3xl">
             <Link to="/auth" className="text-sm">
               ورود / ثبت‌نام
