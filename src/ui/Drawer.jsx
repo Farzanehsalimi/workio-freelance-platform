@@ -19,7 +19,7 @@ function Drawer({ open, onClose, children }) {
           event.stopPropagation();
         }}
       >
-        <div className="bg-secondary-0 max-h-full overflow-y-auto">
+        <div className="bg-secondary-50 max-h-full overflow-y-auto">
           {children}
         </div>
       </div>
