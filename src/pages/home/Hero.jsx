@@ -32,7 +32,7 @@ function Hero() {
           </p>
           <Link
             to="/auth"
-            className="text-2xl font-bold bg-orange hover:bg-orange/90 hover:scale-105 duration-500 rounded-full py-2 px-6 text-secondary-0 mt-6 self-end hidden lg:block"
+            className="btn--orange text-2xl py-2 px-6 text-secondary-0 mt-6 self-end hidden lg:block"
           >
             شروع کن!
           </Link>
@@ -57,9 +57,7 @@ function Hero() {
             </div>
           </div>
           <span className="absolute text-secondary-200 bottom-10 left-4 text-2xl text-center w-2/3">
-            {/* <span className="absolute text-secondary-200 bottom-10 left-4 text-2xl w-2/3 text-center"> */}
             جایی که استعدادها به فرصت تبدیــــل می‌شن!
-            {/* محبوب ترین پلتفــرم فریلنســری */}
           </span>
           <img
             src={GoldBadge}
