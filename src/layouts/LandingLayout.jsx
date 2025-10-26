@@ -4,12 +4,10 @@ import LandingHeader from "./LandingHeader";
 
 function LandingLayout() {
   return (
-    <div className="h-screen">
-      <div className="">
-        <LandingHeader />
-        <Outlet />
-        <LandingFooter />
-      </div>
+    <div className="h-screen w-full">
+      <LandingHeader />
+      <Outlet />
+      <LandingFooter />
     </div>
   );
 }
