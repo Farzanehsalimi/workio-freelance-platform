@@ -30,7 +30,7 @@ function AboutUs() {
           </div>
           <Link
             to="/"
-            className="flex justify-center items-center self-end gap-1 md:gap-2 self-start text-sm md:text-base lg:text-2xl font-bold bg-orange hover:bg-orange/90 hover:scale-105 duration-500 rounded-full py-1 md:py-1.5 lg:py-2 px-2 md:px-3 lg:px-4 text-secondary-0 mt-6"
+            className="btn--orange flex justify-center items-center gap-1 md:gap-2 self-start text-sm md:text-base lg:text-xl py-1 md:py-1.5 lg:py-2 px-2 md:px-3 mt-8"
           >
             <span>اطلاعات بیشتر</span>
             <span>
