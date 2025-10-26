@@ -25,7 +25,7 @@ const footerLinksContacts = [
 
 function LandingFooter() {
   return (
-    <div className="bg-secondary-900 mt-36 sm:mt-96 pt-10 relative lg:h-auto px-4 sm:px-6">
+    <div className="bg-secondary-900 mt-24 sm:mt-80 lg:mt-96 pt-10 relative lg:h-auto px-4 sm:px-6">
       <div className="relative container">
         <TopFooterBg className="hidden sm:block sm:w-[600px] sm:h-[370px] md:w-[700px] md:h-[390px] lg:w-[990px] lg:h-[337px] absolute left-1/2 -translate-x-1/2 -translate-y-2/3" />
         <img
@@ -39,7 +39,7 @@ function LandingFooter() {
         </p>
         <Link
           to="/auth"
-          className="hidden sm:block absolute left-8 -bottom-4 md:-bottom-6 md:left-12 lg:left-24 lg:-bottom-14 xl:left-56 2xl:left-80 text-lg lg:text-2xl font-bold bg-orange hover:bg-orange/90 hover:scale-105 duration-500 rounded-full py-1 md:py-2 px-4 md:px-6 text-secondary-0 mt-6 self-end lg:block"
+          className="btn--orange hidden sm:block absolute left-8 -bottom-4 md:-bottom-6 md:left-12 lg:left-24 lg:-bottom-14 xl:left-56 2xl:left-80 text-lg lg:text-2xl py-1 md:py-2 px-4 md:px-6 mt-6 self-end lg:block"
         >
           بزن بریم!
         </Link>
@@ -55,7 +55,6 @@ function LandingFooter() {
               </span>
             </div>
           </Link>
-          {/* <WORKIO className="w-40 h-10" /> */}
           <p className="text-secondary-100 text-lg lg:text-xl">
             ورکیو جاییه برای رشد، یادگیری و موفقیت فریلنسرها. اینجا می‌تونی
             پروژه‌های واقعی پیدا کنی، تجربه کسب کنی و از مسیر کارت لذت ببری. با
