@@ -1,24 +1,18 @@
 import WORKIO from "@/components/icons/WORKIO";
 import DarkModeToggle from "../ui/DarkModeToggle";
-import { Bars2Icon } from "@heroicons/react/24/outline";
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
-
-import useUsers from "../features/admin/useUsers";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Drawer from "../ui/Drawer";
-import { useMobileMenu } from "../hooks/useMobileMenu";
 import SidebarDrawer from "../ui/SidebarDrawer";
 import NavLinks from "../ui/NavLinks";
 
 function LandingHeader() {
   const [isOpenDrawer, setIsOpenDrawer] = useState(false);
-  const { isLoading, users } = useUsers();
-  const { isOpen, closeMenu, toggleMenu } = useMobileMenu();
 
   return (
-    <header className="flex justify-between pt-4 items-center container xl:max-w-screen-xl">
+    <header className="flex pt-4 container xl:max-w-screen-xl px-4 2xl:px-16 ">
       {/* mobile menu */}
       <div className="flex items-center gap-4 lg:hidden">
         <div
@@ -50,7 +44,7 @@ function LandingHeader() {
 
         <div className="flex gap-4 items-center justify-center">
           <div className="hidden lg:flex">
-            <DarkModeToggle />
+            <DarkModeToggle darkModeContainerClassName="flex bg-secondary-300 rounded-3xl overflow-hidden p-0.5 lg:p-1 gap-1.5 lg:gap-2" />
           </div>
           <button className="flex items-center gap-2 font-bold px-3 lg:px-3 py-1.5 lg:py-2 duration-100 bg-secondary-900 hover:bg-secondary-900/90 text-secondary-50 rounded-3xl">
             <Link to="/auth" className="text-base md:text-xl">
