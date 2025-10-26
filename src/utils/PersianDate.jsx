@@ -35,7 +35,7 @@ function PersianDate() {
 
   return (
     <span
-      className="hidden sm:block text-primary-400 pt-1 px-3 rounded-full text-sm font-bold"
+      className="hidden lg:block text-primary-400 pt-1 px-3 rounded-full text-sm font-bold"
       style={{ direction: "rtl" }}
     >
       {persianDate}
