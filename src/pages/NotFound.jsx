@@ -4,7 +4,7 @@ import useMoveBack from "../hooks/useMoveBack";
 function NotFound() {
   const moveBack = useMoveBack();
   return (
-    <div className="h-screen bg-secondary-0">
+    <div className="h-screen bg-secondary-0 px-4">
       <div className="container xl:max-w-screen-xl">
         <div className="sm:max-w-sm pt-10">
           <div>
