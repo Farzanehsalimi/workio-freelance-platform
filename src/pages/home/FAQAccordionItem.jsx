@@ -1,5 +1,4 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
 import { PlusIcon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
@@ -29,9 +28,9 @@ export default function FAQAccordionItem({
         </div>
         <span className="flex-shrink-0">
           {isOpen ? (
-            <XMarkIcon className="w-5 h-5 p-0.5 md:w-9 md:h-9 md:p-2 duration-500 text-secondary-0 bg-secondary-900 rounded-full" />
+            <XMarkIcon className="w-5 h-5 p-0.5 md:w-9 md:h-9 md:p-2 text-secondary-0 bg-secondary-900 rounded-full" />
           ) : (
-            <PlusIcon className="w-5 h-5 md:w-9 md:h-9 text-secondary-600 md:p-2 duration-500" />
+            <PlusIcon className="w-5 h-5 md:w-9 md:h-9 text-secondary-600 md:p-2" />
           )}
         </span>
       </button>
