@@ -31,7 +31,7 @@ function RHFSelect({ label, name, setValue, options, required, placeholder }) {
               {selected ? (
                 <span>{selected.label}</span>
               ) : (
-                <span className="text-secondary-500">
+                <span className="text-xs sm:text-sm text-secondary-500">
                   {placeholder || "Select"}
                 </span>
               )}
