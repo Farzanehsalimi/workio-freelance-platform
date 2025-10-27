@@ -13,7 +13,7 @@ function Stats({ proposals, users, projects }) {
       />
       <Stat
         color="yellow"
-        title="درخواست ها"
+        title="پروپوزال‌ها"
         value={proposals}
         icon={<HiOutlineInboxArrowDown className="w-16 h-16 md:w-20 md:h-20" />}
       />
