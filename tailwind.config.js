@@ -44,13 +44,14 @@ export default {
         warning: withOpacity("--color-warning"),
         error: withOpacity("--color-error"),
         orange: withOpacity("--color-orange"),
+        secondary50: withOpacity("--secondary50"),
+        bgDashboardSidebar: withOpacity("--bg-dashboard-sidebar"),
       },
       fontFamily: {
         sans: ["Vazir", ...fontFamily.sans],
       },
       container: {
         center: true,
-        padding: "1rem",
       },
     },
   },
