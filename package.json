@@ -11,12 +11,13 @@
     "icons:build": "svgr ./src/assets/icons/svg --out-dir ./src/components/icons --icon --replace-attr-values \"#000=currentColor,#363853=currentColor\" --ext jsx"
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.7",
+    "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
     "@tanstack/react-query": "^5.85.5",
     "axios": "^1.11.0",
     "classnames": "^2.5.1",
     "framer-motion": "^12.23.22",
+    "jalaali-js": "^1.2.8",
     "query-string": "^9.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
