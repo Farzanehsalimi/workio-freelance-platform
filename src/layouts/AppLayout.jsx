@@ -9,7 +9,7 @@ function AppLayout({ sidebarItems }) {
   const [isOpenDrawer, setIsOpenDrawer] = useState(false);
 
   return (
-    <div className="bg-secondary-0 h-screen lg:grid lg:grid-cols-[15rem_1fr] grid-rows-[auto_1fr] gap-x-6 xl:max-w-screen-2xl mx-auto">
+    <div className="bg-secondary-0 h-screen lg:grid lg:grid-cols-[15rem_1fr] grid-rows-[auto_1fr] xl:max-w-screen-2xl mx-auto">
       <Drawer open={isOpenDrawer} onClose={() => setIsOpenDrawer(false)}>
         <DashboardSidebar
           items={sidebarItems}
