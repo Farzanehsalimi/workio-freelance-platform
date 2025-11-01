@@ -19,6 +19,7 @@ import CompleteProfile from "./pages/CompleteProfile";
 import LandingLayout from "./layouts/LandingLayout";
 import Home from "./pages/home/Home";
 import Project from "./pages/Project";
+import Profile from "./pages/Profile";
 const queryClient = new QueryClient();
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
             <Route path="dashboard" element={<OwnerDashboard />} />
             <Route path="projects" element={<Projects />} />
             <Route path="projects/:id" element={<Project />} />
+            <Route path="profile" element={<Profile />} />
           </Route>
 
           <Route
@@ -56,6 +58,7 @@ function App() {
             <Route path="dashboard" element={<FreelancerDashboard />} />
             <Route path="proposals" element={<Proposals />} />
             <Route path="projects" element={<SubmittedProjects />} />
+            <Route path="profile" element={<Profile />} />
           </Route>
 
           <Route
@@ -71,6 +74,7 @@ function App() {
             <Route path="users" element={<Users />} />
             <Route path="proposals" element={<Proposals />} />
             <Route path="projects" element={<SubmittedProjects />} />
+            <Route path="profile" element={<Profile />} />
           </Route>
 
           <Route element={<LandingLayout />}>
