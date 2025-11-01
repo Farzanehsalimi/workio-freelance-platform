@@ -9,7 +9,6 @@ export function DarkModeProvider({ children }) {
     window.matchMedia("(prefers-color-scheme: dark)").matches //false, true
   );
 
-  // console.log(window.matchMedia("(prefers-color-scheme: dark)"));
   const toggleDarkMode = () => setIsDarkMode((prev) => !prev);
 
   useEffect(() => {
