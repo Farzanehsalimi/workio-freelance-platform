@@ -3,6 +3,7 @@ import {
   DocumentTextIcon,
   UsersIcon,
   ChartBarIcon,
+  UserIcon,
 } from "@heroicons/react/24/outline";
 
 export const adminSidebarItems = [
@@ -20,15 +21,21 @@ export const adminSidebarItems = [
   },
   {
     id: 3,
-    title: "پروژه‌ها",
+    title: "پروژه ها",
     icon: <FolderOpenIcon className="w-5 h-5" />,
     to: "projects",
   },
   {
     id: 4,
-    title: "پروپوزال‌ها",
+    title: "پروپوزال ها",
     icon: <DocumentTextIcon className="w-5 h-5" />,
     to: "proposals",
+  },
+  {
+    id: 5,
+    title: "پروفایل",
+    icon: <UserIcon className="w-5 h-5" />,
+    to: "profile",
   },
 ];
 
@@ -41,9 +48,15 @@ export const ownerSidebarItems = [
   },
   {
     id: 2,
-    title: "پروژه‌ها",
+    title: "پروژه های من",
     icon: <FolderOpenIcon className="w-5 h-5" />,
     to: "projects",
+  },
+  {
+    id: 5,
+    title: "پروفایل",
+    icon: <UserIcon className="w-5 h-5" />,
+    to: "profile",
   },
 ];
 
@@ -56,14 +69,20 @@ export const freelancerSidebarItems = [
   },
   {
     id: 2,
-    title: "پروژه‌ها",
+    title: "پروژه ها",
     icon: <FolderOpenIcon className="w-5 h-5" />,
     to: "projects",
   },
   {
     id: 3,
-    title: "پروپوزال‌ها",
+    title: "پروپوزال های من",
     icon: <DocumentTextIcon className="w-5 h-5" />,
     to: "proposals",
+  },
+  {
+    id: 5,
+    title: "پروفایل",
+    icon: <UserIcon className="w-5 h-5" />,
+    to: "profile",
   },
 ];
