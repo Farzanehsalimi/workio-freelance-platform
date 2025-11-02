@@ -1,4 +1,4 @@
-import WORKIO from "@/components/icons/WORKIO";
+import WORKIO from "@/components/icons/Workio.jsx";
 import DarkModeToggle from "../ui/DarkModeToggle";
 import {
   Bars2Icon,

@@ -2,7 +2,7 @@ import TextField from "../../ui/TextField";
 import Loading from "../../ui/Loading";
 import useMoveBack from "../../hooks/useMoveBack";
 import { HiArrowRight } from "react-icons/hi";
-import WORKIO from "@/components/icons/WORKIO";
+import WORKIO from "@/components/icons/Workio.jsx";
 import { Link } from "react-router-dom";
 
 function SendOTPForm({ onSubmit, isSendingOtp, register }) {

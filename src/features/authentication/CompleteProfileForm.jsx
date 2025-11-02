@@ -6,7 +6,7 @@ import { completeProfile } from "../../services/authService";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import RadioInputGroup from "../../ui/RadioInputGroup";
-import WORKIO from "@/components/icons/WORKIO";
+import WORKIO from "@/components/icons/Workio.jsx";
 
 function CompleteProfileForm() {
   const {

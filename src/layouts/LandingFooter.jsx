@@ -1,4 +1,4 @@
-import WORKIO from "@/components/icons/WORKIO";
+import WORKIO from "@/components/icons/Workio.jsx";
 import TopFooterBg from "@/components/icons/TopFooterBg";
 import ManFooter from "../assets/images/man-footer.png";
 import zarinpal from "../assets/images/zarinpal.svg";

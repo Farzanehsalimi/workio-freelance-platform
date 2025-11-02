@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 import { CiEdit } from "react-icons/ci";
 import Loading from "../../ui/Loading";
-import WORKIO from "@/components/icons/WORKIO";
+import WORKIO from "@/components/icons/Workio.jsx";
 import { formatTime } from "../../utils/formatTime";
 
 const RESEND_TIME = 130;

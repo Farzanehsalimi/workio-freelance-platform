@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import WORKIO from "@/components/icons/WORKIO";
+import WORKIO from "@/components/icons/Workio.jsx";
 import { ArrowLeftIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import DarkModeToggle from "./DarkModeToggle";
 import SidebarDrawerNavs from "./SidebarDrawerNavs";
