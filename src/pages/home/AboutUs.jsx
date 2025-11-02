@@ -5,7 +5,7 @@ import { ArrowLongLeftIcon } from "@heroicons/react/24/outline";
 
 function AboutUs() {
   return (
-    <div className="flex flex-col justify-center mx-auto sm:flex-row mt-16 sm:mt-20 md:mt-28 max-w-xs sm:max-w-xl md:max-w-3xl lg:max-w-full px-4 flex-1">
+    <div className="flex flex-col justify-center mx-auto sm:flex-row pt-16 sm:pt-20 md:pt-32 max-w-xs sm:max-w-xl md:max-w-3xl lg:max-w-full px-4 flex-1">
       <div className="flex flex-col justify-between bg-secondary-900 pt-6 sm:pt-8 lg:pt-12 pb-6 lg:pb-8 px-4 sm:pr-8 md:px-10 lg:px-12 rounded-t-3xl sm:rounded-e-none sm:rounded-r-3xl">
         <div className="flex flex-col items-center sm:items-start mb-4 sm:mb-2">
           <span className="text-primary-900 bg-primary-400 text-xs lg:text-sm lg:mb-5 mb-2 text-center rounded-2xl px-2 py-0.5">
