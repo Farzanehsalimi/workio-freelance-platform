@@ -56,7 +56,7 @@ function ProjectHeader() {
 
             <Filter filterField="status" options={statusOptions} />
             <button
-              className="btn btn--primary w-64 sm:w-96"
+              className="btn btn--primary w-64 sm:w-96 py-2"
               onClick={() => setOpen(false)}
             >
               اعمال فیلتر ها
