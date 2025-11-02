@@ -25,7 +25,6 @@ function ChangeUserStatus({ userId, onClose }) {
   const queryClient = useQueryClient();
 
   const onSubmit = (data) => {
-    console.log(data);
     changeUserStatus(
       { userId, data },
       {
