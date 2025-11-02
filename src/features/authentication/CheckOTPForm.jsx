@@ -10,8 +10,7 @@ import Loading from "../../ui/Loading";
 import WORKIO from "@/components/icons/WORKIO";
 import { formatTime } from "../../utils/formatTime";
 
-const RESEND_TIME = 3;
-// const RESEND_TIME = 130;
+const RESEND_TIME = 130;
 
 function CheckOTPForm({ phoneNumber, onBack, onReSendOtp, otpResponse }) {
   const [otp, setOtp] = useState("");
