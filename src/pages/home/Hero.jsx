@@ -8,6 +8,9 @@ import {
   toPersianNumbers,
   toPersianNumbersWithComma,
 } from "../../utils/toPersianNumbers";
+import AvatarOne from "../../assets/images/avatar-1.jpg";
+import AvatarTwo from "../../assets/images/avatar-2.jpeg";
+import AvatarThree from "../../assets/images/avatar-3.jpg";
 
 function Hero() {
   return (
@@ -44,13 +47,13 @@ function Hero() {
               رتبه بندی ها
             </span>
             <div class="avatar">
-              <img src="/src/assets/images/avatar-3.jpg" alt="avatar-3" />
+              <img src={AvatarThree} alt="avatar-3" />
             </div>
             <div class="avatar">
-              <img src="/src/assets/images/avatar-2.jpeg" alt="avatar-2" />
+              <img src={AvatarTwo} alt="avatar-2" />
             </div>
             <div class="avatar">
-              <img src="/src/assets/images/avatar-1.jpg" alt="avatar-1" />
+              <img src={AvatarOne} alt="avatar-1" />
             </div>
             <div class="hidden-avatars bg-orange text-secondary-900">
               {toPersianNumbers(4.8)}
