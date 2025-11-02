@@ -22,7 +22,7 @@ function Stats({ proposals }) {
 
       <Stat
         color="yellow"
-        title="پروپوزال های"
+        title=" پروپوزال های تایید شده"
         value={acceptedProposals.length}
         icon={<HiOutlineCheckCircle className="w-20 h-20" />}
       />
