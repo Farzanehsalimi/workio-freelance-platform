@@ -33,7 +33,7 @@ export default function FAQAccordion() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="flex flex-col items-center pt-20 md:pt-28 md:mx-auto">
+    <section className="flex flex-col items-center pt-20 md:pt-16 md:pb-28 md:mx-auto">
       <span className="bg-primary-900 text-primary-400 text-xs lg:text-sm rounded-2xl lg:mb-4 mb-1.5 px-2 py-0.5">
         سوالات متداول
       </span>
