@@ -4,7 +4,7 @@ import { HiOutlineInboxArrowDown } from "react-icons/hi2";
 import { HiOutlineCheckCircle, HiOutlineCreditCard } from "react-icons/hi";
 
 function Stats({ proposals }) {
-  const numOfProposals = proposals.length;
+  const numOfProposals = proposals.length || "";
 
   const acceptedProposals = proposals.filter((p) => p.status === 2);
 
