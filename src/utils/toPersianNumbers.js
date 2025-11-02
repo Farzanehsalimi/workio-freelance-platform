@@ -11,5 +11,6 @@ function numberWithCommas(x) {
 }
 
 export function toPersianNumbers(n) {
+  if (n === undefined || n === null) return "";
   return n.toString().replace(/\d/g, (x) => farsiDigits[parseInt(x)]);
 }
