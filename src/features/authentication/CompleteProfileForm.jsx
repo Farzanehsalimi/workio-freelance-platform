@@ -23,7 +23,6 @@ function CompleteProfileForm() {
   const onSubmit = async (data) => {
     try {
       const { message, user } = await mutateAsync(data);
-      console.log(user, message);
       toast.success(message);
       if (user.role === "OWNER") {
         navigate("/owner");
