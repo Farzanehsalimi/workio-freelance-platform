@@ -14,7 +14,7 @@ function JobCategories() {
   ];
 
   return (
-    <section className="flex flex-col items-center pt-20 md:pt-24">
+    <section className="flex flex-col items-center pt-20 md:pt-28 md:pb-20">
       <span className="bg-primary-900 text-primary-400 text-xs lg:text-sm rounded-2xl lg:mb-4 mb-2 px-2 py-0.5">
         دسته بندی ها
       </span>
