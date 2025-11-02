@@ -25,14 +25,13 @@ const footerLinksContacts = [
 
 function LandingFooter() {
   return (
-    <div className="bg-secondary-900 mt-24 sm:mt-80 lg:mt-96 pt-10 relative lg:h-auto px-4 sm:px-6">
+    <div className="bg-secondary-900 mt-24 sm:mt-80 pt-10 relative lg:h-auto px-4 sm:px-6">
       <div className="relative container">
         <TopFooterBg className="hidden sm:block sm:w-[600px] sm:h-[370px] md:w-[700px] md:h-[390px] lg:w-[990px] lg:h-[337px] absolute left-1/2 -translate-x-1/2 -translate-y-2/3" />
         <img
           src={ManFooter}
           className="hidden sm:block sm:w-[350px] sm:h-[350px] lg:w-[450px] lg:h-[450px] absolute -bottom-12 md:-bottom-16 lg:-bottom-28 lg:right-8 xl:right-36 2xl:right-72"
           alt=""
-          // right-4 -top-16 lg:-bottom-6 lg:right-72 -translate-y-1/2
         />
         <p className="hidden sm:block absolute bottom-10 left-12 md:left-16 lg:left-32 lg:-top-36 xl:left-64 2xl:left-1/4 text-secondary-0 text-3xl md:text-5xl lg:text-6xl font-bold">
           از همین امروز <br /> با ما شروع کن!
