@@ -11,7 +11,7 @@ import {
 
 function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row-reverse justify-around lg:mt-14">
+    <div className="flex flex-col lg:flex-row-reverse justify-around md:mt-10">
       <div className="flex flex-col mt-10 gap-16 lg:mt-12">
         <div className="flex items-center lg:items-start flex-col mb-8 sm:mb-12 lg:mb-0">
           <span className="bg-primary-900 text-primary-400 text-xs lg:text-sm lg:mb-3 mb-1.5 text-center rounded-2xl px-1 py-0.5">
