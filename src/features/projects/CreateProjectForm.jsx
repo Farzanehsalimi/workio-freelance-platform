@@ -53,11 +53,7 @@ function CreateProjectForm({ onClose, projectToEdit = {} }) {
       deadline: new Date(date).toISOString(),
       tags,
     };
-    console.log({
-      ...data,
-      deadline: new Date(date).toISOString(),
-      tags,
-    });
+
     if (isEditSession) {
       editProject(
         { id: editId, newProject },
