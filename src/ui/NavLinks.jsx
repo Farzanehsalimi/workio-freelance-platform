@@ -24,7 +24,7 @@ function NavLinks({ onClickLink }) {
       {NavItems.map(({ to, title }) => (
         <li
           key={to}
-          className="hover:text-primary-500 cursor-pointer p-4 transition-all font-bold"
+          className="hover:text-primary-500 cursor-pointer p-2 xl:p-4 transition-all font-bold"
           onClick={() => scrollToSection(to)}
         >
           {title}
