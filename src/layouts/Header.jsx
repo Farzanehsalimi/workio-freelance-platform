@@ -31,7 +31,7 @@ function Header({ onToggleSidebar }) {
           <PersianDate />
         </div>
         <div className="flex items-center gap-x-2 sm:gap-x-3">
-          <DarkModeToggle darkModeContainerClassName="flex overflow-hidden md:gap-x-1 bg-primary-900 rounded-3xl  md:py-0.5 md:px-1 w-full" />
+          <DarkModeToggle darkModeContainerClassName="flex overflow-hidden md:gap-x-1 bg-primary-900 rounded-3xl w-full" />
           <div className="lg:hidden w-9 h-9 rounded-full bg-gradient-to-tr from-orange via-secondary50 to-yellow-300 p-[0/5px]">
             <div className="rounded-full p-[2px]">
               <img
