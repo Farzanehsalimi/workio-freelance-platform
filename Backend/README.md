@@ -23,3 +23,7 @@ This document explains how to set up and run the backend server of the project.
    ```bash
    cp .env.example .env
    ```
+
+## Credits
+
+Backend developed by [Saheb Mohammadi](https://github.com/sahebmohammadi).
