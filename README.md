@@ -33,7 +33,7 @@ Backend is not deployed yet.
 
 #### GIF Demo
 
-<img src="assets/auth-flow.gif" alt="Authentication Flow GIF" width="600"/>
+<img src="assets/auth-flow.gif" alt="Authentication Flow GIF" width="400"/>
 
 ### 🔹 Role-Based System
 
@@ -45,32 +45,32 @@ Workio supports three distinct roles: **Owner**, **Freelancer**, **Admin**.
 
 ### 🏠 Home Page
 
-<img src="assets/workio-HomePage.png" alt="Home Page" width="600"/>
+<img src="assets/workio-HomePage.png" alt="Home Page" width="400"/>
 _Home page showing featured projects and main navigation._
 
 ### 📊 Admin Dashboard – Statistics Overview
 
-<img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="600"/>
+<img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="400"/>
 _Admin dashboard displaying platform-wide statistics and management overview._
 
 ### 📈 Owner Dashboard – Statistics Overview
 
-<img src="assets/owner-dashboard.png" alt="Owner Dashboard" width="600"/>
+<img src="assets/owner-dashboard.png" alt="Owner Dashboard" width="400"/>
 _Owner dashboard showing activity statistics for projects._
 
 ### 🗂 Owner – My Projects
 
-<img src="assets/owner-dashboard-projects.png" alt="Owner Projects" width="600"/>
+<img src="assets/owner-dashboard-projects.png" alt="Owner Projects" width="400"/>
 _Owner view of projects they have created._
 
 ### 💼 Freelancer – Available Projects
 
-<img src="assets/freelancer-dashboard-projects.png" alt="Freelancer Projects" width="600"/>
+<img src="assets/freelancer-dashboard-projects.png" alt="Freelancer Projects" width="400"/>
 _Freelancer view of all available projects to submit proposals._
 
 ### ✉️ Freelancer – My Proposals
 
-<img src="assets/freelancer-dashboard-proposals.png" alt="Freelancer Proposals" width="600"/>
+<img src="assets/freelancer-dashboard-proposals.png" alt="Freelancer Proposals" width="400"/>
 _Freelancer view of proposals they have submitted._
 
 ---
@@ -79,17 +79,17 @@ _Freelancer view of proposals they have submitted._
 
 ### Role-Based Navigation
 
-<img src="assets/role-navigation.gif" alt="Role-Based Navigation GIF" width="600"/>
+<img src="assets/role-navigation.gif" alt="Role-Based Navigation GIF" width="400"/>
 _Demonstrates how navigation adapts based on user role._
 
 ### Creating a Project
 
-<img src="assets/create-project.gif" alt="Creating a Project GIF" width="600"/>
+<img src="assets/create-project.gif" alt="Creating a Project GIF" width="400"/>
 _Owner creating a new project._
 
 ### Submitting a Proposal
 
-<img src="assets/submit-proposal.gif" alt="Submitting a Proposal GIF" width="600"/>
+<img src="assets/submit-proposal.gif" alt="Submitting a Proposal GIF" width="400"/>
 _Freelancer submitting a proposal for a project._
 
 ---
@@ -104,13 +104,13 @@ _Freelancer submitting a proposal for a project._
 
 ## 📁 Repository Structure
 
-````workio-freelance-platform/
+```workio-freelance-platform/
 ├── frontend/
 ├── backend/
 ├── assets/
-└── README.md```
+└── README.md
 
 ## 👩‍💻 Developer
 
 Frontend developed by **[Farzaneh Salimi](https://farzanehsalimi.ir)**
-````
+```
