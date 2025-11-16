@@ -45,7 +45,7 @@ Workio supports three distinct roles: **Owner**, **Freelancer**, **Admin**.
 
 ### 🏠 Home Page
 
-![Home Page](assets/home-page.png)
+![Home Page](assets/workio-HomePage.png)
 _Home page showing featured projects and main navigation._
 
 ### 📊 Admin Dashboard – Statistics Overview
@@ -60,17 +60,17 @@ _Owner dashboard showing activity statistics for projects._
 
 ### 🗂 Owner – My Projects
 
-![Owner Projects](assets/owner-projects.png)
+![Owner Projects](assets/owner-dashboard-projects.png)
 _Owner view of projects they have created._
 
 ### 💼 Freelancer – Available Projects
 
-![Freelancer Projects](assets/freelancer-projects.png)
+![Freelancer Projects](assets/freelancer-dashboard-projects.png)
 _Freelancer view of all available projects to submit proposals._
 
 ### ✉️ Freelancer – My Proposals
 
-![Freelancer Proposals](assets/freelancer-proposals.png)
+![Freelancer Proposals](assets/freelancer-dashboard-proposals.png)
 _Freelancer view of proposals they have submitted._
 
 ---
@@ -104,12 +104,13 @@ _Freelancer submitting a proposal for a project._
 
 ## 📁 Repository Structure
 
-workio-freelance-platform/
+````workio-freelance-platform/
 ├── frontend/
 ├── backend/
-├── assets/ # <-- Place your screenshots and GIFs here
-└── README.md
+├── assets/
+└── README.md```
 
 ## 👩‍💻 Developer
 
 Frontend developed by **[Farzaneh Salimi](https://farzanehsalimi.ir)**
+````
