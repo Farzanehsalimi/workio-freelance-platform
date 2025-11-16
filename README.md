@@ -33,7 +33,7 @@ Backend is not deployed yet.
 
 #### GIF Demo
 
-![Authentication Flow GIF](assets/auth-flow.gif)
+<img src="assets/auth-flow.gif" alt="Authentication Flow GIF" width="600"/>
 
 ### 🔹 Role-Based System
 
@@ -45,32 +45,32 @@ Workio supports three distinct roles: **Owner**, **Freelancer**, **Admin**.
 
 ### 🏠 Home Page
 
-![Home Page](assets/workio-HomePage.png)
+<img src="assets/workio-HomePage.png" alt="Home Page" width="600"/>
 _Home page showing featured projects and main navigation._
 
 ### 📊 Admin Dashboard – Statistics Overview
 
-![Admin Dashboard](assets/admin-dashboard.png)
+<img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="600"/>
 _Admin dashboard displaying platform-wide statistics and management overview._
 
 ### 📈 Owner Dashboard – Statistics Overview
 
-![Owner Dashboard](assets/owner-dashboard.png)
+<img src="assets/owner-dashboard.png" alt="Owner Dashboard" width="600"/>
 _Owner dashboard showing activity statistics for projects._
 
 ### 🗂 Owner – My Projects
 
-![Owner Projects](assets/owner-dashboard-projects.png)
+<img src="assets/owner-dashboard-projects.png" alt="Owner Projects" width="600"/>
 _Owner view of projects they have created._
 
 ### 💼 Freelancer – Available Projects
 
-![Freelancer Projects](assets/freelancer-dashboard-projects.png)
+<img src="assets/freelancer-dashboard-projects.png" alt="Freelancer Projects" width="600"/>
 _Freelancer view of all available projects to submit proposals._
 
 ### ✉️ Freelancer – My Proposals
 
-![Freelancer Proposals](assets/freelancer-dashboard-proposals.png)
+<img src="assets/freelancer-dashboard-proposals.png" alt="Freelancer Proposals" width="600"/>
 _Freelancer view of proposals they have submitted._
 
 ---
@@ -79,17 +79,17 @@ _Freelancer view of proposals they have submitted._
 
 ### Role-Based Navigation
 
-![Role-Based Navigation GIF](assets/role-navigation.gif)
+<img src="assets/role-navigation.gif" alt="Role-Based Navigation GIF" width="600"/>
 _Demonstrates how navigation adapts based on user role._
 
 ### Creating a Project
 
-![Creating a Project GIF](assets/create-project.gif)
+<img src="assets/create-project.gif" alt="Creating a Project GIF" width="600"/>
 _Owner creating a new project._
 
 ### Submitting a Proposal
 
-![Submitting a Proposal GIF](assets/submit-proposal.gif)
+<img src="assets/submit-proposal.gif" alt="Submitting a Proposal GIF" width="600"/>
 _Freelancer submitting a proposal for a project._
 
 ---
