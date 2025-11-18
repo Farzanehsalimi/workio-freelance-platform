@@ -33,7 +33,7 @@ Backend is not deployed yet.
 
 #### GIF Demo
 
-<img src="./assets/authentication.gif" alt="Authentication Flow GIF" width="400"/>
+<img src="/assets/auth.gif" alt="Authentication Flow GIF" width="400"/>
 
 ### 🔹 Role-Based System
 
