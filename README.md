@@ -21,77 +21,74 @@ Backend is not deployed yet.
 
 ## 🎯 Core Features
 
-### 🔹 Authentication Flow (Test Mode)
+### 🔹 Authentication & Authorization
 
-- Users enter their mobile number.
-- A **test OTP code** appears above the `react-otp-input` component.
-- Includes:
-  - OTP countdown timer
-  - Edit phone number option
-  - Validation
-  - Navigation to profile completion
+- Login with mobile number and OTP (test mode)
+- Role-based access: Admin, Owner, Freelancer
 
-#### GIF Demo
+### 🔹 Role-Based Dashboards
 
-<!-- <img src="/assets/au.mp4" alt="Authentication Flow GIF" width="400"/> -->
-<video autoplay loop muted playsinline width="400">
-  <source src="assets/au.mp4" type="video/mp4">
-</video>
-### 🔹 Role-Based System
+- Admin dashboard for platform management
+- Owner dashboard to manage projects and view proposals
+- Freelancer dashboard to browse projects and submit proposals
 
-Workio supports three distinct roles: **Owner**, **Freelancer**, **Admin**.
+### 🔹 Project Management
+
+- Create, edit, and delete projects (Owner)
+- Browse projects by status and category
+
+### 🔹 Proposal System
+
+- Submit proposals (Freelancer)
+- View submitted proposals
+- Manage proposals from Owner dashboard
+
+### 🔹 User Verification
+
+- Profile completion and user verification
+- Manage personal account details
+
+### 🔹 Notifications & Feedback
+
+- Real-time feedback for OTP, project creation, and proposal submission
 
 ---
 
 ## 🖼 Screenshots
 
-### 🏠 Home Page
+### 1️⃣ Home Page
 
 <img src="assets/workio-HomePage.png" alt="Home Page" width="400"/>
 _Home page showing featured projects and main navigation._
 
-### 📊 Admin Dashboard – Statistics Overview
+### 2️⃣ Mobile Number Input (Authentication)
+
+<img src="assets/auth1.png" alt="Mobile Number Input" width="400"/>
+_Page where users enter their mobile number for login._
+
+### 3️⃣ OTP Verification
+
+<img src="assets/auth2.png" alt="OTP Verification" width="400"/>
+_Page showing OTP input, countdown timer, and navigation to profile completion._
+
+### 4️⃣ Admin Dashboard – Statistics Overview
 
 <img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="400"/>
 _Admin dashboard displaying platform-wide statistics and management overview._
 
-### 📈 Owner Dashboard – Statistics Overview
-
-<img src="assets/owner-dashboard.png" alt="Owner Dashboard" width="400"/>
-_Owner dashboard showing activity statistics for projects._
-
-### 🗂 Owner – My Projects
-
-<img src="assets/owner-dashboard-projects.png" alt="Owner Projects" width="400"/>
-_Owner view of projects they have created._
-
-### 💼 Freelancer – Available Projects
+### 5️⃣ Freelancer – My Projects / Proposals
 
 <img src="assets/freelancer-dashboard-projects.png" alt="Freelancer Projects" width="400"/>
-_Freelancer view of all available projects to submit proposals._
+_Freelancer view of available projects to submit proposals._
 
-### ✉️ Freelancer – My Proposals
+### 6️⃣ Owner – Adding a Project
+
+<img src="assets/owner-dashboard-projects.png" alt="Owner Projects" width="400"/>
+_Owner creating or managing projects._
+
+### 7️⃣ Freelancer – Submitting a Proposal
 
 <img src="assets/freelancer-dashboard-proposals.png" alt="Freelancer Proposals" width="400"/>
-_Freelancer view of proposals they have submitted._
-
----
-
-## 🎬 GIF Demo
-
-### Role-Based Navigation
-
-<img src="assets/role-navigation.gif" alt="Role-Based Navigation GIF" width="400"/>
-_Demonstrates how navigation adapts based on user role._
-
-### Creating a Project
-
-<img src="assets/create-project.gif" alt="Creating a Project GIF" width="400"/>
-_Owner creating a new project._
-
-### Submitting a Proposal
-
-<img src="assets/submit-proposal.gif" alt="Submitting a Proposal GIF" width="400"/>
 _Freelancer submitting a proposal for a project._
 
 ---
@@ -100,19 +97,16 @@ _Freelancer submitting a proposal for a project._
 
 - **Frontend:** React, Vite, TailwindCSS, React Router, React Query, React Hook Form, React Icons
 - **Backend:** Node.js, MongoDB, Axios
-- **Architecture:** Feature-based, role-based routing, lazy-loaded routes, centralized API layer with Axios interceptors, global error handling, full CRUD services
+- **Architecture:** Feature-based, role-based routing, centralized API layer with Axios interceptors, global error handling, full CRUD services
 
 ---
 
 ## 📁 Repository Structure
 
-```workio-freelance-platform/
+```text
+workio-freelance-platform/
 ├── frontend/
 ├── backend/
 ├── assets/
 └── README.md
-
-## 👩‍💻 Developer
-
-Frontend developed by **[Farzaneh Salimi](https://farzanehsalimi.ir)**
 ```
