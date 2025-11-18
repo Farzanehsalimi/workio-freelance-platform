@@ -1,5 +1,6 @@
 # Workio – Freelance Platform
 
+<img src="assets/authentication.gif" alt="Home Page" width="400"/>
 Workio is a full-featured freelance marketplace designed with a role-based architecture, supporting three user roles: **Admin**, **Owner**, and **Freelancer**.  
 The platform allows project creation, proposal submissions, user verification, and full dashboard experiences for each role.
 
