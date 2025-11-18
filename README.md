@@ -24,7 +24,7 @@ Backend is not deployed yet.
 ### 🔹 Authentication Flow (Test Mode)
 
 - Users enter their mobile number.
-- A **test OTP code** appears above the `react-otp-input` component (no SMS sending).
+- A **test OTP code** appears above the `react-otp-input` component.
 - Includes:
   - OTP countdown timer
   - Edit phone number option
@@ -33,7 +33,7 @@ Backend is not deployed yet.
 
 #### GIF Demo
 
-<img src="assets/auth-flow.gif" alt="Authentication Flow GIF" width="400"/>
+<img src="assets/authentication.gif" alt="Authentication Flow GIF" width="400"/>
 
 ### 🔹 Role-Based System
 
