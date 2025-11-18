@@ -33,8 +33,10 @@ Backend is not deployed yet.
 
 #### GIF Demo
 
-<img src="/assets/aut.gif" alt="Authentication Flow GIF" width="400"/>
-
+<!-- <img src="/assets/au.mp4" alt="Authentication Flow GIF" width="400"/> -->
+<video autoplay loop muted playsinline width="400">
+  <source src="assets/au.mp4" type="video/mp4">
+</video>
 ### 🔹 Role-Based System
 
 Workio supports three distinct roles: **Owner**, **Freelancer**, **Admin**.
