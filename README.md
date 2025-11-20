@@ -191,4 +191,4 @@ This project demonstrates my ability to build a complete production-level Fronte
 
 ---
 
-Crafted with care by **Farzaneh Salimi** — [farzanehsalimi.ir](https://farzanehsalimi.ir)
+Crafted with care by **Farzaneh Salimi** — [farzanehsalimi.ir](https://farzanehsalimi.ir) ✨
