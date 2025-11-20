@@ -175,7 +175,7 @@ Below are some of the key flows of the platform:
 
 ### 🏠 6. Home Page
 
-<img src="./readme-assets/workio-HomePage.png" alt="workio-HomePage" width="600"/>
+<img src="./readme-assets/workio-HomePage.png" alt="workio-HomePage" width="400"/>
 
 ---
 
