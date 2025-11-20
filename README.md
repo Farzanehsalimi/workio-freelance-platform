@@ -171,7 +171,7 @@ Below are some of the key flows of the platform:
 
 ### 📱 5. Responsive Drawer / Sidebar
 
-<img src="./readme-assets/responsive.gif" alt="responsive" width="600"/>
+<img src="./readme-assets/responsive.gif" alt="responsive" width="300"/>
 
 ### 🏠 6. Home Page
 
