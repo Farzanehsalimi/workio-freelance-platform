@@ -19,6 +19,36 @@ This repository contains:
 
 ---
 
+## 📸 Demo GIFs & Screenshots
+
+Below are some of the key flows of the platform:
+
+### 🔐 1. Login & OTP Flow
+
+<img src="./readme-assets/auth.gif" alt="auth" width="600"/>
+
+### 📝 2. Creating a Project (Owner)
+
+<img src="./readme-assets/create-project.gif" alt="auth" width="600"/>
+
+### 📤 3. Sending a Proposal (Freelancer)
+
+<img src="./readme-assets/create-proposal.gif" alt="create-proposal" width="600"/>
+
+### 🎛️ 4. Filtering Projects (Freelancer)
+
+<img src="./readme-assets/filter-projects.gif" alt="create-proposal" width="600"/>
+
+### 📱 5. Responsive Drawer / Sidebar
+
+<img src="./readme-assets/responsive.gif" alt="responsive" width="300"/>
+
+### 🏠 6. Home Page
+
+<img src="./readme-assets/workio-HomePage.png" alt="workio-HomePage" width="400"/>
+
+---
+
 ## 🛠️ Prerequisites
 
 - Node.js v14 or higher
@@ -146,36 +176,6 @@ This architecture improves scalability, separation of concerns, and readability.
 - **react-loader-spinner**
 - **Custom utility functions (Persian numbers, helpers)**
 - Deployment: **Vercel**
-
----
-
-## 📸 Demo GIFs & Screenshots
-
-Below are some of the key flows of the platform:
-
-### 🔐 1. Login & OTP Flow
-
-<img src="./readme-assets/auth.gif" alt="auth" width="600"/>
-
-### 📝 2. Creating a Project (Owner)
-
-<img src="./readme-assets/create-project.gif" alt="auth" width="600"/>
-
-### 📤 3. Sending a Proposal (Freelancer)
-
-<img src="./readme-assets/create-proposal.gif" alt="create-proposal" width="600"/>
-
-### 🎛️ 4. Filtering Projects (Freelancer)
-
-<img src="./readme-assets/filter-projects.gif" alt="create-proposal" width="600"/>
-
-### 📱 5. Responsive Drawer / Sidebar
-
-<img src="./readme-assets/responsive.gif" alt="responsive" width="300"/>
-
-### 🏠 6. Home Page
-
-<img src="./readme-assets/workio-HomePage.png" alt="workio-HomePage" width="400"/>
 
 ---
 
