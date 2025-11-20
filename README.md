@@ -1,113 +1,194 @@
 # Workio – Freelance Platform
 
-<img src="assets/authentication.gif" alt="Home Page" width="600"/>
-Workio is a full-featured freelance marketplace designed with a role-based architecture, supporting three user roles: **Admin**, **Owner**, and **Freelancer**.  
+## 📘 What is Workio?
+
+Workio is a full-featured freelance marketplace designed with a role-based architecture, supporting three user roles: **Admin**, **Owner**, and **Freelancer**.
 The platform allows project creation, proposal submissions, user verification, and full dashboard experiences for each role.
+
+## 🔗 Live Demo
+
+https://workio.farzanehsalimi.ir
+
+---
 
 This repository contains:
 
-- `/frontend` — React-based web application (developed by **[Farzaneh Salimi](https://farzanehsalimi.ir)**)
-- `/backend` — Node.js + MongoDB REST API server
+- `/Frontend` — React-based web application (developed by **[Farzaneh Salimi](https://farzanehsalimi.ir)**)
+- `/Backend` — Node.js + MongoDB REST API server.
+  The backend handles authentication, OTP logic (demo mode), role permissions, CRUD of projects/proposals, and user management.
 
 ---
 
-## 🚀 Live Demo (Frontend)
+## 🛠️ Prerequisites
 
-The frontend is deployed on Vercel:  
-👉 **[https://workio.farzanehsalimi.ir](https://workio.farzanehsalimi.ir)**
+- Node.js v14 or higher
+- MongoDB running locally on default port 27017
 
-Backend is not deployed yet.
+## 🚀 Quick Start
 
----
+1. Clone the repo
+2. Install dependencies for frontend and backend:
 
-## 🎯 Core Features
+```bash
+cd Frontend
+npm install
+npm run dev
+
+cd ../Backend
+npm install
+npm run dev
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file in both folders:
+
+### Frontend
+
+VITE_API_URL=...
+
+### Backend
+
+PORT=...
+MONGO_URI=...
+JWT_SECRET=...
+REFRESH_TOKEN_SECRET=...
+
+## 🚀 Features
 
 ### 🔹 Authentication & Authorization
 
-- Login with mobile number and OTP (test mode)
-- Role-based access: Admin, Owner, Freelancer
+- Phone-number based login with OTP (demo mode: OTP code displayed on the page)
+- Secure token-based authentication using **access tokens** (short-lived JWTs) for API requests
+- **Refresh tokens** stored securely in HTTP-only cookies enable seamless session renewal without re-login
+- This approach protects against XSS attacks by preventing client-side script access to tokens
+- Role-based access control ensures users see only allowed resources and dashboards
+
+---
 
 ### 🔹 Role-Based Dashboards
 
-- Admin dashboard for platform management
-- Owner dashboard to manage projects and view proposals
-- Freelancer dashboard to browse projects and submit proposals
+#### 👤 Owner
 
-### 🔹 Project Management
+- Overview of project statistics & proposal activity
+- Create projects via a modal form (React Hook Form + validation)
+- Edit, delete, or close/open projects
+- View proposals received for each project
+- Approve or reject proposals
+- Profile page
 
-- Create, edit, and delete projects (Owner)
-- Browse projects by status and category
+#### 🧑‍💻 Freelancer
 
-### 🔹 Proposal System
+- Dashboard showing proposals sent, accepted proposals, and wallet info
+- Browse all projects created by owners
+- Filter projects by:
+  - Status (Open / Closed / All)
+  - Category
+  - Newest / Oldest
+- Send proposals with dynamic form validation
+- View all submitted proposals in a table with status info
+- Freelancer profile
 
-- Submit proposals (Freelancer)
-- View submitted proposals
-- Manage proposals from Owner dashboard
+#### 🛡️ Admin
 
-### 🔹 User Verification
-
-- Profile completion and user verification
-- Manage personal account details
-
-### 🔹 Notifications & Feedback
-
-- Real-time feedback for OTP, project creation, and proposal submission
-
----
-
-## 🖼 Screenshots
-
-### 1️⃣ Home Page
-
-<img src="assets/workio-HomePage.png" alt="Home Page" width="400"/>
-_Home page showing featured projects and main navigation._
-
-### 2️⃣ Mobile Number Input (Authentication)
-
-<img src="assets/auth1.png" alt="Mobile Number Input" width="400"/>
-_Page where users enter their mobile number for login._
-
-### 3️⃣ OTP Verification
-
-<img src="assets/auth2.png" alt="OTP Verification" width="400"/>
-_Page showing OTP input, countdown timer, and navigation to profile completion._
-
-### 4️⃣ Admin Dashboard – Statistics Overview
-
-<img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="400"/>
-_Admin dashboard displaying platform-wide statistics and management overview._
-
-### 5️⃣ Freelancer – My Projects / Proposals
-
-<img src="assets/freelancer-dashboard-projects.png" alt="Freelancer Projects" width="400"/>
-_Freelancer view of available projects to submit proposals._
-
-### 6️⃣ Owner – Adding a Project
-
-<img src="assets/owner-dashboard-projects.png" alt="Owner Projects" width="400"/>
-_Owner creating or managing projects._
-
-### 7️⃣ Freelancer – Submitting a Proposal
-
-<img src="assets/freelancer-dashboard-proposals.png" alt="Freelancer Proposals" width="400"/>
-_Freelancer submitting a proposal for a project._
+- Full control panel to manage:
+  - Users (approve/reject)
+  - Projects
+  - Proposals
+- Dedicated dashboard with statistics
+- Admin profile page
 
 ---
 
-## 🛠 Tech Stack
+## 🎨 UI / UX
 
-- **Frontend:** React, Vite, TailwindCSS, React Router, React Query, React Hook Form, React Icons
-- **Backend:** Node.js, MongoDB, Axios
-- **Architecture:** Feature-based, role-based routing, centralized API layer with Axios interceptors, global error handling, full CRUD services
+- Fully responsive layout (mobile-first)
+- Sidebar drawer for mobile screens
+- Light mode & dark mode
+- Smooth animations using **Framer Motion**
+- Home page carousel using **Swiper**
+- loading states using **react-loader-spinner**
+- Custom color palette
+- Persian numeral formatting for all numbers (utility functions)
+- Date input for deadlines using a date picker component
 
 ---
 
-## 📁 Repository Structure
+## 🧠 State Management & Data Fetching
 
-```text
-workio-freelance-platform/
-├── frontend/
-├── backend/
-├── assets/
-└── README.md
-```
+- **React Query** for:
+  - Server state caching
+  - Mutations
+  - Error & loading handling
+- **React Router DOM** for navigation and page routing
+- Protected route system (role-based access control)
+
+---
+
+## 📁 Folder Architecture (Feature-Based)
+
+Workio follows a modern _feature-driven structure_,
+This architecture improves scalability, separation of concerns, and readability.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **React Router DOM**
+- **React Query**
+- **React Hook Form**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Swiper**
+- **React Icons / Heroicons**
+- **react-loader-spinner**
+- **Custom utility functions (Persian numbers, helpers)**
+- Deployment: **Vercel**
+
+---
+
+## 📸 Demo GIFs & Screenshots
+
+Below are some of the key flows of the platform:
+
+### 🔐 1. Login & OTP Flow
+
+<img src="./readme-assets/auth.gif" alt="auth" width="600"/>
+
+### 📝 2. Creating a Project (Owner)
+
+<img src="./readme-assets/create-project.gif" alt="auth" width="600"/>
+
+### 📤 3. Sending a Proposal (Freelancer)
+
+<img src="./readme-assets/create-proposal.gif" alt="create-proposal" width="600"/>
+
+### 🎛️ 4. Filtering Projects (Freelancer)
+
+<img src="./readme-assets/filter-projects.gif" alt="create-proposal" width="600"/>
+
+### 📱 5. Responsive Drawer / Sidebar
+
+<img src="./readme-assets/responsive.gif" alt="responsive" width="600"/>
+
+### 🏠 6. Home Page
+
+<img src="./readme-assets/workio-HomePage.png" alt="workio-HomePage" width="600"/>
+
+---
+
+## 🎯 Why I Built This Project
+
+This project demonstrates my ability to build a complete production-level Frontend with:
+
+- Complex forms
+- Data fetching + state management
+- Protected routing
+- Role-based UI rendering
+- Responsive layouts and animations
+
+---
+
+Crafted with care by **Farzaneh Salimi** — [farzanehsalimi.ir](https://farzanehsalimi.ir)
