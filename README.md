@@ -162,6 +162,18 @@ This architecture improves scalability, separation of concerns, and readability.
 
 ---
 
+## 🎯 Why I Built This Project
+
+This project demonstrates my ability to build a complete production-level Frontend with:
+
+- Complex forms
+- Data fetching + state management
+- Protected routing
+- Role-based UI rendering
+- Responsive layouts and animations
+
+---
+
 ## 🛠️ Tech Stack
 
 - **React**
@@ -176,18 +188,6 @@ This architecture improves scalability, separation of concerns, and readability.
 - **react-loader-spinner**
 - **Custom utility functions (Persian numbers, helpers)**
 - Deployment: **Vercel**
-
----
-
-## 🎯 Why I Built This Project
-
-This project demonstrates my ability to build a complete production-level Frontend with:
-
-- Complex forms
-- Data fetching + state management
-- Protected routing
-- Role-based UI rendering
-- Responsive layouts and animations
 
 ---
 
